@@ -1,3 +1,19 @@
 body > * {
     font-family: 'Roboto', sans-serif;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+}
