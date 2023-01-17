@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-
-    /* display: flex;
-    flex-direction: column; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -26,28 +26,31 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     /* background-color: #1F2937; */
     flex: 1;
-    margin: auto;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 }
 
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
 }
 
-.logo {}
+.logo {
+}
 
 .header-content {
     display: flex;
-}
-
-.container {
-    /* 
-    trying to get page to stretch to fit the viewport 
-    try vh:100 or whatever it was on the body, then try this
-    */
-    display: flex;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
 }
