@@ -101,7 +101,7 @@ a {
 
 /* -------------------------- */
 
-/* content section start */
+/* body content section start */
 
 .body-content-container {
     display: flex;
@@ -137,4 +137,8 @@ a {
     font-weight: 1000;
 }
 
-/* content section end */
+/* body content section end */
+
+/* -------------------------- */
+
+/*  */
