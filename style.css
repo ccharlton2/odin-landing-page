@@ -141,4 +141,34 @@ a {
 
 /* -------------------------- */
 
-/*  */
+/* testimonial start */
+
+.testimonial {
+    background-color: #E5E7EB;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 150px 200px;
+}
+
+.testimonial-text {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+    width: 70%;
+}
+
+.testimonial-author {
+    font-weight: 1000;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/* testimonial end */
