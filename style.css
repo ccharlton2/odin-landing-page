@@ -221,3 +221,21 @@ a {
 }
 
 /* sign up end */
+
+/* -------------------------- */
+
+/* footer start */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding: 35px;
+    color: #F9FAF8;
+}
+
+/* footer end */
