@@ -145,8 +145,6 @@ a {
 
 .testimonial {
     background-color: #E5E7EB;
-    /* display: flex;
-    justify-content: space-around; */
 }
 
 .testimonial-container {
@@ -172,3 +170,54 @@ a {
 }
 
 /* testimonial end */
+
+/* -------------------------- */
+
+/* sign up start */
+
+.sign-up {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-container {
+    border-radius: 12px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 25px;
+    height: 160px;
+    width: 75%;
+}
+
+.sign-up-title, .sign-up-button, .sign-up-information {
+    color: #F9FAF8;
+}
+
+.sign-up-title, .sign-up-information {
+    margin: 0px;
+}
+
+.sign-up-title {
+    font-size: 24px;
+}
+
+.sign-up-information {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sign-up-button {
+    border: solid 2px #F9FAF8;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 5px;
+    height: 40px;
+    width: 125px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/* sign up end */
