@@ -103,6 +103,28 @@ a {
 
 /* content section start */
 
+.body-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.body-content-box-container {
+    display: flex;
+}
+
+.box-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blue-box {
+    border: solid 4px #3882F6;
+    border-radius: 12px;
+    height: 175px;
+    width: 175px;
+}
 
 /* content section end */
